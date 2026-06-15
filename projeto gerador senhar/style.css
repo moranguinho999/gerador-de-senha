@@ -1,0 +1,51 @@
+/* Configuração geral da página */
+body {
+    background-color: #C71585; /* Cor rosa escuro (MediumVioletRed) */
+    color: #000000;            /* Textos na cor preta */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Configuração do cabeçalho */
+.cabecalho {
+    text-align: center;        /* Centraliza os elementos */
+    padding: 40px 20px 20px 20px;
+}
+
+/* Estilização da imagem/ícone do cadeado */
+.icone-cadeado {
+    width: 60px;               /* Largura do cadeado */
+    height: 60px;              /* Altura do cadeado */
+    margin-bottom: 15px;       /* Espaço entre o cadeado e o título h1 */
+}
+
+.cabecalho h1 {
+    font-size: 50px;           /* Tamanho de 50px para a primeira linha */
+    margin: 0 0 10px 0;        
+}
+
+.cabecalho h2 {
+    font-size: 25px;           /* Tamanho de 25px para a segunda linha */
+    font-weight: normal;       
+    margin: 0;
+}
+
+/* Nova divisão abaixo do cabeçalho */
+.conteudo-principal {
+    display: flex;
+    justify-content: center;   /* Centraliza a caixa de texto horizontalmente */
+    padding: 20px;
+}
+
+/* Estilização da caixa de texto */
+.caixa-senha {
+    background-color: #FFB6C1; /* Cor de fundo rosa claro (LightPink) */
+    color: #000000;            /* Texto interno na cor preta */
+    font-size: 15px;           /* Tamanho do texto de 15px */
+    border: 2px solid #000000; /* Borda preta fina para dar acabamento */
+    border-radius: 5px;        /* Arredonda levemente os cantos */
+    padding: 10px 15px;        /* Espaçamento interno para o texto não ficar colado nas bordas */
+    width: 250px;              /* Largura da caixa */
+    text-align: center;        /* Centraliza o texto "senha" dentro da caixa */
+}
